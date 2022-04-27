@@ -15,8 +15,11 @@ Load balancing 2WANs
 - check IP on Internet
 
 0   s 0.0.0.0/0       10.30.1.1         2
+
 1  As 0.0.0.0/0       10.20.1.1         1
+
 2  As 8.8.4.4/32      10.30.1.1         1
+
 3  As 8.8.8.8/32      10.20.1.1         1
 
 ![obraz](https://user-images.githubusercontent.com/75216446/165448765-6017a0cc-e1a2-41f6-b516-4adf5fc99e83.png)
